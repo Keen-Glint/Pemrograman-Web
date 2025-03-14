@@ -1,12 +1,18 @@
 .top {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 100vw;
+    max-width: 100%;
+>>>>>>> ebbc737 (Update mobile view)
     background-color: rgb(38, 38, 190);
     opacity: 90%;
 }
 
 body, html {
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .title {
@@ -15,6 +21,10 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .title h1 {
@@ -54,7 +64,11 @@ nav ul li a:hover {
 
 body {
     text-align: left;
+<<<<<<< HEAD
     background-image: url("../asset/bgUNP.png");
+=======
+    background-image: url(../asset/bgUNP.png);
+>>>>>>> ebbc737 (Update mobile view)
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -7,11 +7,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    nav ul {
+        gap: 10px; /* Mengurangi jarak antar item */
+        flex-direction: column; /* Menumpuk daftar */
+        align-items: center;
+    }
+
     nav ul li a {
-        font-size: 8px !important;
+        font-size: 14px !important;
+        padding: 5px; /* Menyesuaikan padding */
     }
 }
-
 
 body, html {
     padding: 0;

@@ -1,10 +1,7 @@
 .top {
-<<<<<<< HEAD
     width: 100%;
-=======
     width: 100vw;
     max-width: 100%;
->>>>>>> ebbc737 (Update mobile view)
     background-color: rgb(38, 38, 190);
     opacity: 90%;
 }
@@ -64,11 +61,8 @@ nav ul li a:hover {
 
 body {
     text-align: left;
-<<<<<<< HEAD
     background-image: url("../asset/bgUNP.png");
-=======
     background-image: url(../asset/bgUNP.png);
->>>>>>> ebbc737 (Update mobile view)
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -84,7 +78,8 @@ main {
     border-radius: 5%;
     box-shadow: 2px 2px 1px black;
     opacity: 90%;
-    width: 70%;
+    width: 85%;
+    max-width: 900px;
 }
 
 label {
@@ -136,4 +131,8 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+main, header, nav, footer {
+    max-width: 100%;
 }

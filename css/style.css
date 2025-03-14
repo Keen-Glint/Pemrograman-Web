@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 body {
     text-align: left;
-    background-image: url(../asset/bgUNP.png);
+    background-image: url("../asset/bgUNP.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

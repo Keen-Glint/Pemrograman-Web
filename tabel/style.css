@@ -1,0 +1,48 @@
+nav ul {
+    text-shadow: 4px 4px 1px black;
+    opacity: 90%;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgUNP.jpg), center/cover no-repeat fixed;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.LogoUNP{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px black;
+    
+}
+
+body table {
+    background-color: white;
+    opacity: 80%;
+}

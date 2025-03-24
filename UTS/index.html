@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Toko Kelontong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aplikasi Toko Kelontong</h1>
+
+    <div id="entri-produk">
+        <h2>Entri Produk</h2>
+        <label for="nama-produk">Nama Produk:</label>
+        <input type="text" id="nama-produk"><br><br>
+        <label for="harga-produk">Harga:</label>
+        <input type="number" id="harga-produk"><br><br>
+        <label for="stok-produk">Stok:</label>
+        <input type="number" id="stok-produk"><br><br>
+        <button id="simpan-produk">Simpan Produk</button>
+    </div>
+
+    <div id="entri-pelanggan">
+        <h2>Entri Pelanggan</h2>
+        <label for="nama-pelanggan">Nama Pelanggan:</label>
+        <input type="text" id="nama-pelanggan"><br><br>
+        <label for="alamat-pelanggan">Alamat:</label>
+        <input type="text" id="alamat-pelanggan"><br><br>
+        <button id="simpan-pelanggan">Simpan Pelanggan</button>
+    </div>
+
+    <div id="penjualan">
+        <h2>Penjualan</h2>
+        <label for="pelanggan-terpilih">Pelanggan:</label>
+        <select id="pelanggan-terpilih"></select><br><br>
+        <label for="produk-terjual">Produk:</label>
+        <select id="produk-terjual"></select><br><br>
+        <label for="jumlah-terjual">Jumlah:</label>
+        <input type="number" id="jumlah-terjual"><br><br>
+        <button id="tambah-keranjang">Tambah ke Keranjang</button>
+        <ul id="keranjang"></ul>
+        <p>Total: <span id="total-harga">0</span></p>
+        <button id="proses-penjualan">Proses Penjualan</button>
+    </div>
+
+    <div id="pencarian-produk">
+        <h2>Pencarian Produk</h2>
+        <label for="kata-kunci">Kata Kunci:</label>
+        <input type="text" id="kata-kunci">
+        <button id="cari-produk">Cari</button>
+        <ul id="hasil-pencarian"></ul>
+    </div>
+
+    <div id="laporan">
+        <h2>Laporan</h2>
+        <button id="laporan-stok">Laporan Stok</button>
+        <button id="laporan-pelanggan">Laporan Pelanggan</button>
+        <button id="laporan-faktur">Laporan Faktur</button>
+        <button id="rekap-harian">Rekap Harian</button>
+        <button id="rekap-bulanan">Rekap Bulanan</button>
+        <button id="rekap-tahunan">Rekap Tahunan</button>
+        <div id="isi-laporan"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
